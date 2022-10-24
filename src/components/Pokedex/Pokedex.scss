@@ -1,0 +1,41 @@
+@import "../../Variables/Variables.scss";
+
+.pokedex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.pokedex-favorite {
+  padding: 0 10px 10px 10px;
+}
+
+.pokedex-grid {
+  padding: 0 10px;
+  margin: 0 auto;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+}
+
+.title-pokedex {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 576px) {
+  .pokedex-header {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title-pokedex {
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .title-pokedex h1 {
+    display: none;
+  }
+}

@@ -1,0 +1,26 @@
+@import "../Variables/Variables.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  background-color: $blueDarkColor;
+  // background: linear-gradient(
+  //   45deg,
+  //   rgba(2, 0, 36, 1) 0%,
+  //   rgba(14, 111, 159, 0.9808298319327731) 45%,
+  //   rgba(0, 212, 255, 1) 100%
+  // );
+  // background-repeat: no-repeat;
+  color: white;
+}
+
+.App {
+  padding: 0 20px 20px 20px;
+  margin: 0 auto;
+  overflow: inherit;
+}

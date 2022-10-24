@@ -1,0 +1,42 @@
+@import "../../Variables/Variables.scss";
+
+.pagination-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn-left,
+.btn-right {
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  padding: 0.3em 0.4em;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: $greyDarkColor;
+}
+
+.btn-left:hover,
+.btn-right:hover {
+  background-color: black;
+}
+
+@media (max-width: 576px) {
+  .pagination-container {
+    font-size: 12px;
+  }
+
+  .pagination-container span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .btn-left,
+  .btn-right {
+    padding: 0.1em 0.2em;
+    font-size: 14px;
+  }
+}

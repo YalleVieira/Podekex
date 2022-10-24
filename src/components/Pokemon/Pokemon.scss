@@ -1,0 +1,145 @@
+@import "../../Variables/Variables.scss";
+
+.pokemon-card {
+  color: white;
+  display: flex;
+  box-shadow: 4px 4px 4px rgba(53, 53, 53, 0.288);
+  border-radius: 10px;
+}
+
+.pokemon-img {
+  width: 100px;
+  height: 100px;
+  margin: 0 20px;
+  object-fit: cover;
+}
+
+.pokemon-type-text {
+  background-color: $blueColor;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.content-card {
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 10px 10px 0;
+  flex: 1;
+}
+
+.header-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-card h3 {
+  text-transform: capitalize;
+}
+
+.main-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pokemon-type {
+  display: flex;
+  gap: 10px;
+  text-transform: capitalize;
+}
+
+.pokemon-type-text {
+  box-shadow: 2px 4px $shadow;
+}
+
+.pokemon-favorite svg {
+  color: $redColor;
+}
+
+.pokemon-heart-btn {
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.dark {
+  background-image: url("../../img/types/dark.jpg");
+}
+
+.fire {
+  background-image: url("../../img/types/fire.jpg");
+}
+
+.water {
+  background-image: url("../../img/types/water.jpg");
+  background-position: left;
+}
+
+.grass {
+  background-image: url("../../img/types/grass.jpg");
+}
+
+.bug {
+  background-image: url("../../img/types/bug.jpg");
+}
+
+.normal {
+  background-image: url("../../img/types/normal.jpg");
+}
+
+.poison {
+  background-image: url("../../img/types/poison.jpg");
+}
+
+.electric {
+  background-image: url("../../img/types/electric.jpg");
+}
+
+.fairy {
+  background-image: url("../../img/types/normal.jpg");
+}
+
+.ground {
+  background-image: url("../../img/types/normal.jpg");
+}
+
+.fighting {
+  background-image: url("../../img/types/fighting.jpg");
+}
+
+.psychic {
+  background-image: url("../../img/types/psychic.jpg");
+}
+
+.rock {
+  background-image: url("../../img/types/rock.jpg");
+}
+.ghost {
+  background-image: url("../../img/types/ghost.jpg");
+}
+
+.ice {
+  background-image: url("../../img/types/ice.jpg");
+}
+
+.dragon {
+  background-image: url("../../img/types/dragon.jpg");
+}
+
+.dark {
+  background-image: url("../../img/types/dark.jpg");
+}
+
+.steel {
+  background-image: url("../../img/types/steel.jpg");
+}
+
+.flying {
+  background-image: url("../../img//types/flying.png");
+}
