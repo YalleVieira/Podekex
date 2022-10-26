@@ -1,6 +1,6 @@
 import React from "react";
-import "./GlobalStyle/GlobalStyle.scss";
-import RoutesApp from "./Routes/routesApp";
+import "./globalStyle/GlobalStyle.scss";
+import RoutesApp from "./routes/routesApp";
 
 function App() {
   return <RoutesApp />;
